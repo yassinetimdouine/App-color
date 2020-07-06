@@ -8,7 +8,7 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: bgd
