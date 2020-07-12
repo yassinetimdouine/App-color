@@ -8,7 +8,11 @@ metadata:
   name: bgd
   namespace: bgd
 spec:
+<<<<<<< HEAD
   replicas: 1
+=======
+  replicas: 5
+>>>>>>> update rep to 5
   selector:
     matchLabels:
       app: bgd
